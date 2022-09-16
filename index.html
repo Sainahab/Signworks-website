@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+          (function(){
+           emailjs.init("user_uCFfxmN7ozOptEF7haF5Z");
+            })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('default_service', 'contactform', this);
+            });
+        }
+    </script>  
+    
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top" >
+          <img src="imgs/logo_dark.png" alt="SignWorks SA.R.L" class="img-fluid">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a id="link-services" class="nav-link js-scroll-trigger" href="index.html#services">Services +</a>
+            </li>
+            <li class="nav-item">
+              <a id="link-clients" class="nav-link js-scroll-trigger" href="index.html#clients">Our Clients</a>
+            </li>
+            <li class="nav-item">
+              <a id="link-events" class="nav-link js-scroll-trigger" href="index.html#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a id="link-contact-us" class="nav-link js-scroll-trigger" href="index.html#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- navigation -->
+
+
+
+    <!-- Intro Header -->
+    <header class="masthead" id="page-top">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h5 class="brand-heading">Future Tech is a smart, fast, and nimble next generation consulting firm with a flair for <b>technology</b> and <b>innovation</b>.</h5>
+              <a id="link-we-are-here" href="index.html#we-are-here" class="cta cta-info js-scroll-trigger">Learn more</a>
+            </div><!-- col -->
+          </div><!-- row -->
+        </div><!-- container -->
+      </div><!-- intro body -->
+    </header><!-- header -->
+
+
+
+    <!-- Section: We are here -->
+    <section id="we-are-here" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="row">
+              <div class="col-md-6"><h2 class="title">We are here for you whenever you want to:</h2></div>
+              <div class="col-md-6"></div>
+            </div>
+
+            <div class="row">
+              <div class="offset-lg-2 col-sm-10 col-xs-12 col-md-12 col-lg-10 col-xl-10">
+                <div class="row items">
+                  <div class="col-md-6 item">
+                    <div class="photo">
+                      <img src="svg/brain1.svg" alt="icon" class="img-fluid">
+                    </div>
+                    <h5>Learn</h5>
+                    <p>We specialise in emerging technology and can help guide and instruct your teams as to what is on the horizon, how it will shape your industry and how to be prepared for the disruption.</p>
+                  </div>
+                  <div class="col-md-6 item">
+                    <div class="photo">
+                      <img src="svg/growth-tree-chart.svg" alt="icon" class="img-fluid">
+                    </div>
+                    <h5>Grow</h5>
+                    <p>Embracing innovation is the key to successful growth. We work with you to ensure you are resourced appropriately and help you develop the internal capability for scalable growth.</p>
+                  </div>
+                  <div class="col-md-6 item">
+                    <div class="photo">
+                      <img src="svg/speed-sign.svg" alt="icon" class="img-fluid">
+                    </div>
+                    <h5>Dominate</h5>
+                    <p>Technology is ubiquitous and your competitors have access to the same platforms you do. We make sure you stay at the front of the curve to develop your capabilities before the competition.</p>
+                  </div>
+                  <div class="col-md-6 item">
+                    <div class="photo">
+                      <img src="svg/nucleus-atom-3.svg" alt="icon" class="img-fluid">
+                    </div>
+                    <h5>Innovate</h5>
+                    <p>We have access to the skills and resources to help you innovate. We can build platforms, applications and infrastructure to help you explore new avenues of growth and future potential.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- section: we are here -->
+
+
+
+    <!-- Section: Our Services -->
+    <section id="services" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="title">Our Services</h2>
+
+            <div class="row items">
+              <div class="col-md-4 item">
+                <div>
+                  <div class="photo">
+                    <img src="svg/growth-presentation.svg" alt="icon" class="img-fluid">
+                  </div>
+                  <h5>Consultancy</h5>
+                </div>
+                <a href="services.html#consultancy" class="cta cta-service"><img src="svg/right.svg" alt="icon" class="img-fluid"></a>
+              </div>
+              <div class="col-md-4 item">
+                <div>
+                  <div class="photo">
+                    <img src="svg/mobile-development-ui.svg" alt="icon" class="img-fluid">
+                  </div>
+                  <h5>Web Design & Development</h5>
+                </div>
+                <a href="services.html#web-design" class="cta cta-service"><img src="svg/right.svg" alt="icon" class="img-fluid"></a>
+              </div>
+              <div class="col-md-4 item">
+                <div>
+                  <div class="photo">
+                    <img src="svg/digital-attack-cyber-earth.svg" alt="icon" class="img-fluid">
+                  </div>
+                  <h5>Cyber Security</h5>
+                </div>
+                <a href="services.html#cyber-security" class="cta cta-service"><img src="svg/right.svg" alt="icon" class="img-fluid"></a>
+              </div>
+            </div>
+
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- section: our services -->
+
+
+
+    <!-- Section: Our Clients -->
+    <section id="clients" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="title">Our Clients</h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="row logos">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-manx-national.png" alt="Client logo: Manx National Heritage" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-iom-business-network.png" alt="Client logo: IOM Business Network" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-iom-gov.png" alt="Client logo: Isle of Man Government" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-imgold.png" alt="Client Logo: IMGold" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-carrefour.png" alt="Client logo: CarreFour Healthclubs" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-international-institute.png" alt="Client logo: International Institute of Space Commerce" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-iom-post.png" alt="Client logo: Isle of Man Post Office" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-childrens.png" alt="Client logo: Children's University" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row logos">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-childrens.png" alt="Client logo: Children's University" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-micta.png" alt="Client logo: MICTA" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-osteopathy4all.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-crowborough.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-mansat.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo">
+                        <img src="imgs/client-scouts.png" alt="logo" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo" style="background-color: transparent">
+                        <!-- <img src="imgs/logo-Isle-of-Man.png" alt="logo" class="img-fluid"> -->
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-xs-12">
+                      <div class="logo" style="background-color: transparent">
+                        <!-- <img src="imgs/logo-childrens.png" alt="logo" class="img-fluid"> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+                <!-- <li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li> -->
+              </ol>
+            </div>
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- section: our clients -->
+
+
+
+    <!-- Section: Events -->
+    <section id="events" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+
+            <div class="row">
+              <div class="col-md-9">
+                <h2 class="title">Events</h2>
+                <p class="sub-title">We like to organise and take part in a variety of events both on and off the Isle of Man. It gives us the opportunity to network and to share our knowledge, aspirations and ideas; particularly around new and emerging technologies.</p>
+              </div>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table future-tbl">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                    <th>More details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Every Saturday</td>
+                    <td>Code Club</td>
+                    <td>STEAM Lab</td>
+                    <td><a href="http://codeclub.im">Click Here</a></td>
+                  </tr>
+                  <tr>
+                    <td>Every Third Thursday</td>
+                    <td>Talk Tech Lunch</td>
+                    <td>Bar George</td>
+                    <td><a href="http://u-g-h.com">Click Here</a></td>
+                  </tr>
+                  <tr>
+                    <td>Every First Thursday</td>
+                    <td>Isle of Man WordPress User Group</td>
+                    <td>Various</td>
+                    <td><a href="https://www.meetup.com/Isle-of-Man-WordPress-Meetup/">Click Here</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="past-event">
+              <button class="collapse-event" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                <span>Past Events</span> <span class="arrow"><img src="svg/minimal-up.svg" alt="icon"></span>
+              </button>
+
+              <div class="collapse show" id="collapseExample">
+                <div class="table-responsive">
+                  <table class="table future-tbl">
+                    <tbody>
+                      <tr>
+                        <td>18th March 2017</td>
+                        <td>How WordPress Malware Works</td>
+                        <td>Wordcamp London</td>
+                        <td><a href="index.html#">Click Here</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- section: events -->
+
+    <!-- Section: Contact Us -->
+    <section id="contact-us" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row">
+              <div class="col-md-9">
+                <h2 class="title">Contact Us</h2>
+                <p class="sub-title">We’re always happy to talk to the people around us, whether they are old customers or potential ones looking to learn how we can help. You can get in touch with us in a variety of ways described below.</p>
+              </div>
+            </div>
+
+            <div class="row corporate">
+              <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                <div class="company-info">
+                  <h6>Corporate Headquarters</h6>
+                  <div class="ctn">
+                    <div class="ctn-left">
+                      <span>SIGNWORKS S.A.R.L, <br/>7 Street Moussa Ben Noussair، 2rd floor Nº3<br/>90020, Tanger, Morocco.</span>
+                    </div>
+                    <div class="ctn-right">
+                      <span>&nbsp;<img src="svg/mobile.svg" alt="icon" class="img-fluid"><span>(+212) 05xx - xx - xx - xx</span></span><br/>
+                      <a href="mailto:info@signworks.ma"><img src="svg/email-85.svg" alt="icon" class="img-fluid"><span>info@signworks.ma</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                <iframe width="100%" height="220" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=7%20Rue%20Moussa%20Ben%20Noussair,%20Tangier+(SIGNWORKS%20S.A.R.L)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe>              </div>
+            </div><!-- row -->
+
+            <form name="sendUsAMessage" id="contact-form">
+              <h5>Send Us a Message</h5>
+              <div class="row">
+
+                <div class="col-sm-5">
+                  <div class="form-group">
+                    <label for="yourname">Your name</label>
+                    <input type="text" class="form-control input-config" id="yourname" name="user_name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input type="email" class="form-control input-config" id="email" name="user_email">
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control input-config" id="subject" name="subject">
+                  </div>
+                </div>
+
+                <div class="col-sm-7">
+                  <div class="form-group">
+                    <label for="text">Your message</label>
+                    <textarea name="text" rows="9" class="textarea-config"></textarea>
+                  </div>
+                  <div class="verify-code">
+                     <button type="submit" class="cta cta-info">Send</button>
+                  </div>
+                </div>
+
+              </div><!-- row -->
+            </form>
+
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </section><!-- section: contact us -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="lol">
+          <div class="col-12 col-sm-12 col-md-9">
+            <span>© Copyright 2022 SINGWORKS S.A.R.L. <br> All Rights Reserved.</span>
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- container -->
+    </footer><!-- footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="libs/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+  </body>
+
+</html>
