@@ -134,10 +134,13 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #4b741b; }
+  color: #dddddd;
+  ;
+  }
 
 a:focus, a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #4b741b; }
 
 .content-section {
   padding-top: 96px;
@@ -243,8 +246,8 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
@@ -253,8 +256,8 @@ body {
     background: black; }
 
   #mainNav.navbar-shrink {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-bottom: 0;
     background: rgba(0, 0, 0, 0.8); }
 
@@ -264,10 +267,22 @@ body {
     background-color: transparent; }
 
   #mainNav .nav-link.active:hover {
-    color: #FFFFFF; } }
+    color: #FFFFFF; } 
+  
+    
+    .navbar-expand-lg .navbar-collapse{
+      justify-content: flex-end;
+    }}
+
+
+li.nav-item {
+  margin-left: 30px;
+}
+
+
 .navbar-brand {
   display: inline-block;
-  width: 300px; }
+  width: 200px; }
   @media (max-width: 440px) {
     .navbar-brand {
       width: 200px; } }
@@ -283,7 +298,7 @@ body {
 #mainNav #events {
   background: none; }
 
-footer {
+/*footer {
   display: flex;
   align-items: center;
   padding: 2rem 0 3rem;
@@ -305,7 +320,7 @@ footer {
         float: none; } }
 .lol {
   text-align: -webkit-center;
-}        
+}        */
 
 .craftapplied {
   display: flex;
@@ -559,7 +574,9 @@ textarea.textarea-config {
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
-    padding: 0; } }
+    padding: 0; } 
+  
+  }
 #we-are-here {
   background: #000000;
   /* Old browsers */
@@ -606,7 +623,8 @@ textarea.textarea-config {
         height: 210px; } }
     @media (max-width: 767px) {
       #clients .logos .logo {
-        height: 200px; } }
+        height: 200px; } 
+      }
   @media (max-width: 380px) {
     #clients .logos .col-xs-12 {
       max-width: 100%;
@@ -832,6 +850,112 @@ textarea.textarea-config {
     color: #4b741b; }
     #services-details .ready-to-work h3 a {
       text-decoration: underline; }
+
+
+
+
+      /*========footer 2 ==========*/
+
+
+      .ft-part1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      .ft-part1 img{
+        width: 80%;
+      }
+
+      .ft-part1 .rit-side,
+      .ft-part1 .mdl-side,
+      .ft-part1 .lft-side{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+      }
+      .rit-side {
+        width: 15%;
+      }
+
+      .mdl-side {
+        width: 65%;
+      }
+
+      .lft-side{  
+        width: 15%;
+      }
+
+      .footer-section h3{
+        font-size: 1.1em;
+        color: #4b741b;
+      }
+
+      .ft-lies{
+        list-style: none;
+        padding-left: 0px;
+      }
+      
+      .ft-sm{
+        list-style: none;
+        text-align: center;
+        padding-left: 0px;
+      }
+      .ft-sm li {
+        margin-bottom: 5px;
+      }
+
+
+
+      .ft-part2 {
+        background-color: #385913;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 20px 10px;
+        font-size: 15px;
+      }
+
+      @media (max-width: 767px) {
+
+          .ft-part1, .ft-part2 .ft-part1 .rit-side, .ft-part1 .mdl-side, .ft-part1 .lft-side{
+          flex-direction: column;
+          align-items: center;
+          
+          }
+          .ft-part1 .rit-side,
+          .ft-part1 .mdl-side,
+          .ft-part1 .lft-side{
+            width: 100%;
+          }  
+          .ft-about, .ft-services, .fr-links {
+            width: 100%;
+            text-align: center;
+          } 
+          .ft-sm {
+            display: flex;
+          }
+          
+          .lft-side h3 {
+           text-align: center;
+           } 
+          
+
+          ul.ft-sm a {
+            padding: 0 10px;
+          }
+
+          .ft-part2 {
+            text-align: center;
+            flex-direction: column;
+          }
+
+        }
+
+      /*========footer 2 ==========*/
 
 /*
   sass --watch src/scss/stylesheet.scss:src/css/stylesheet.css
